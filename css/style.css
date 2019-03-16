@@ -148,3 +148,35 @@ h2 {
 .guias .card-title {
     font-size: 1.1rem;
 }
+
+/** Footer */
+.footer {
+    border-top: 1px solid #e1e1eb;
+}
+.footer h3 {
+    color: #777;
+    font-size: 1.2rem;
+}
+.footer .nav-link {
+    color:#777!important;
+    padding: .5rem 0;
+    font-size: 1rem;
+}
+.footer .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .widget {
+    justigy-content: space-between;
+    flex: 0 0 calc(50% - 1rem);
+}
+@media (min-width: 768px) {
+    .footer .widget {
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+}
+@media (min-width: 992px) {
+    .footer .widget {
+        flex: 0 0 calc(20% - 1rem);
+    }
+}
