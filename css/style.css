@@ -113,3 +113,14 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/** BENEFICIOS */
+.beneficios .row {
+    min-height: 20rem;
+}
+.beneficio h3 {
+    font-weight: 300;
+}
+.beneficio h3 span {
+    font-weight: 700;
+}
