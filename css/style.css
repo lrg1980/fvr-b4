@@ -12,6 +12,17 @@ h1, h2, h3 {
 h2 { 
     font-size: 3rem;
 }
+
+/** SCROLL */
+.header-scroll .nav-link {
+    color: #777!important;
+}
+.header-scroll .btn-outline-success:hover {
+    color: white!important;
+}
+.header-scroll .btn-outline-success {
+    color: #00b30c!important;
+}
 .titulo {
     font-weight: 700!important;
 }
